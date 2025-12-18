@@ -11,11 +11,7 @@ on:
       - master
     paths:
       - .github/workflows/semgrep.yml
-  # Schedule the CI job (this method uses cron syntax):
-  schedule:
-    - cron: '0 10 * * *' # Sets Semgrep to scan every day at 17:20 UTC.
-    # It is recommended to change the schedule to a random time.
-
+      
 permissions:
   contents: read
   security-events: write
