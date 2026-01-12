@@ -51,7 +51,7 @@ jobs:
   trivy:
     permissions:
       security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
-    name: Build
+    name: Trivy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
