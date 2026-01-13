@@ -49,8 +49,6 @@ jobs:
 
 
   trivy:
-    permissions:
-      security-events: write # for github/codeql-action/upload-sarif to upload SARIF results
     name: Trivy
     runs-on: ubuntu-latest
     steps:
@@ -69,3 +67,15 @@ jobs:
         uses: github/codeql-action/upload-sarif@v3
         with:
           sarif_file: 'trivy-results.sarif'
+
+  truffle:
+    name: TruffleHog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run TruffleHog scanner
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra-args: --no-verification --github-actions
