@@ -4,29 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08b70a7ae8ad404ba4fb58823893df61",
+    "content-hash": "18888d5e8d6000b148e6ad34919c5fb6",
     "packages": [
         {
             "name": "brick/math",
-            "version": "0.13.1",
+            "version": "0.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "fc7ed316430118cc7836bf45faff18d5dfc8de04"
+                "reference": "f05858549e5f9d7bb45875a75583240a38a281d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/fc7ed316430118cc7836bf45faff18d5dfc8de04",
-                "reference": "fc7ed316430118cc7836bf45faff18d5dfc8de04",
+                "url": "https://api.github.com/repos/brick/math/zipball/f05858549e5f9d7bb45875a75583240a38a281d0",
+                "reference": "f05858549e5f9d7bb45875a75583240a38a281d0",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1"
+                "php": "^8.2"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
-                "phpunit/phpunit": "^10.1",
-                "vimeo/psalm": "6.8.8"
+                "phpstan/phpstan": "2.1.22",
+                "phpunit/phpunit": "^11.5"
             },
             "type": "library",
             "autoload": {
@@ -56,7 +56,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.13.1"
+                "source": "https://github.com/brick/math/tree/0.14.1"
             },
             "funding": [
                 {
@@ -64,7 +64,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-29T13:50:30+00:00"
+            "time": "2025-11-24T14:40:29+00:00"
         },
         {
             "name": "composer/semver",
@@ -991,16 +991,16 @@
         },
         {
             "name": "microsoft/microsoft-graph-core",
-            "version": "2.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/microsoftgraph/msgraph-sdk-php-core.git",
-                "reference": "bf4b2b1d16fb0c7196e4f0707f0161a369204a37"
+                "reference": "3428ae84dbf7b7dd161faf3efca66aae1ce67172"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/microsoftgraph/msgraph-sdk-php-core/zipball/bf4b2b1d16fb0c7196e4f0707f0161a369204a37",
-                "reference": "bf4b2b1d16fb0c7196e4f0707f0161a369204a37",
+                "url": "https://api.github.com/repos/microsoftgraph/msgraph-sdk-php-core/zipball/3428ae84dbf7b7dd161faf3efca66aae1ce67172",
+                "reference": "3428ae84dbf7b7dd161faf3efca66aae1ce67172",
                 "shasum": ""
             },
             "require": {
@@ -1037,9 +1037,9 @@
             "homepage": "https://developer.microsoft.com/en-us/graph",
             "support": {
                 "issues": "https://github.com/microsoftgraph/msgraph-sdk-php-core/issues",
-                "source": "https://github.com/microsoftgraph/msgraph-sdk-php-core/tree/2.0.0"
+                "source": "https://github.com/microsoftgraph/msgraph-sdk-php-core/tree/2.0.2"
             },
-            "time": "2023-11-09T08:59:00+00:00"
+            "time": "2023-11-29T23:50:38+00:00"
         },
         {
             "name": "nyholm/psr7-server",
@@ -2618,5 +2618,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }

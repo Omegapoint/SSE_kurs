@@ -17,6 +17,6 @@
     },
     "require": {
         "zircote/swagger-php": "^4.10",
-        "microsoft/microsoft-graph-core": "2.0.0"
+        "microsoft/microsoft-graph-core": "2.0.2"
     }
 }
