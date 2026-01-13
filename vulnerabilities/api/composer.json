@@ -1,4 +1,15 @@
 {
+    "config": {
+    "audit": {
+      "ignore": {
+        "CVE-2023-49283": "Added to be used in a security example"
+      }
+    },
+        "allow-plugins": {
+            "php-http/discovery": false,
+            "tbachert/spi": false
+        }
+  },
     "autoload": {
         "psr-4": {
             "Src\\": "src/"
